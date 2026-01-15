@@ -1,0 +1,15 @@
+.gallery-image:hover {
+  transform: scale(1.1);
+}
+.slick-dots {
+  bottom: -30px !important;  /* move dots below slider */
+}
+
+.slick-dots li button:before {
+  font-size: 10px;  /* smaller dots on mobile */
+  color: #4ade80;   /* green color for active dots */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #059669; /* darker green for active */
+}
